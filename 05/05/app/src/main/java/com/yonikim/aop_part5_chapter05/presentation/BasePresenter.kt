@@ -1,4 +1,4 @@
-package com.yonikim.aop_part5_chapter05.presenter
+package com.yonikim.aop_part5_chapter05.presentation
 
 import androidx.annotation.CallSuper
 import kotlinx.coroutines.CoroutineScope
