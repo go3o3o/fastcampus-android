@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/ic_baseline_refresh_24.xml" value="0.13645833333333332" />
+        <entry key="app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.13645833333333332" />
         <entry key="app/src/main/res/drawable/selector_favorite_checkbox.xml" value="0.17135416666666667" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.15520833333333334" />
         <entry key="app/src/main/res/layout/fragment_station_arrivals.xml" value="0.15520833333333334" />

@@ -1,7 +1,11 @@
 package com.yonikim.aop_part5_chapter05.domain
 
-data class Station (
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
+
+@Parcelize
+data class Station(
     val name: String,
     val isFavorited: Boolean,
-//    val connectedSubways: List<Subway>
-        )
+    val connectedSubways: List<Subway>
+) : Parcelable
