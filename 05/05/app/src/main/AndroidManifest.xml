@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Aoppart5chapter05">
         <activity
-            android:name="com.yonikim.aop_part5_chapter05.MainActivity"
+            android:name="com.yonikim.aop_part5_chapter05.presentation.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
