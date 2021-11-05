@@ -1,6 +1,7 @@
 package com.yonikim.aop_part5_chapter05.data.api
 
 import com.yonikim.aop_part5_chapter05.BuildConfig
+import com.yonikim.aop_part5_chapter05.data.api.response.RealtimeStationArrivals
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Path

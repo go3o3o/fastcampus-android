@@ -5,7 +5,7 @@ import com.yonikim.aop_part5_chapter05.data.db.entity.SubwayEntity
 
 interface StationApi {
 
-    suspend fun getStationDataUpdateTimeMillis(): Long
+    suspend fun getStationDataUpdatedTimeMillis(): Long
 
     suspend fun getStationSubways(): List<Pair<StationEntity, SubwayEntity>>
 }

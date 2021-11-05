@@ -25,6 +25,6 @@ class StationStorageApi(
     }
 
     companion object {
-        private const val STATION_DATA_FILE_NAME = "station_data.csv"
+        private const val STATION_DATA_FILE_NAME = "station_data.csv "
     }
 }
