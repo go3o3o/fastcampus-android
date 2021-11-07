@@ -1,12 +1,24 @@
 package com.yonikim.aop_part5_chapter05.di
 
+import com.google.firebase.ktx.Firebase
+import com.google.firebase.storage.ktx.storage
 import com.yonikim.aop_part5_chapter05.BuildConfig
+import com.yonikim.aop_part5_chapter05.data.api.StationApi
+import com.yonikim.aop_part5_chapter05.data.api.StationArrivalsApi
+import com.yonikim.aop_part5_chapter05.data.api.StationStorageApi
+import com.yonikim.aop_part5_chapter05.data.api.Url
 import com.yonikim.aop_part5_chapter05.data.db.AppDatabase
+import com.yonikim.aop_part5_chapter05.data.repository.StationRepository
+import com.yonikim.aop_part5_chapter05.data.repository.StationRepositoryImpl
+import com.yonikim.aop_part5_chapter05.presentation.stationarrivals.StationArrivalsFragment
+import com.yonikim.aop_part5_chapter05.presentation.stations.StationsFragment
 import kotlinx.coroutines.Dispatchers
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import org.koin.android.ext.koin.androidApplication
 import org.koin.dsl.module
+import retrofit2.Retrofit
+import retrofit2.converter.gson.GsonConverterFactory
 
 val appModule = module {
 
@@ -31,6 +43,25 @@ val appModule = module {
             )
             .build()
     }
-    
+    single<StationArrivalsApi> {
+        Retrofit.Builder().baseUrl(Url.SEOUL_DATA_API_URL)
+            .addConverterFactory(GsonConverterFactory.create())
+            .client(get())
+            .build()
+            .create()
+    }
+    single<StationApi> { StationStorageApi(Firebase.storage) }
+
+    // Repository
+    single<StationRepository> { StationRepositoryImpl(get(), get(), get(), get(), get()) }
+
+    // Presentation
+    scope<StationsFragment> {
+        scoped<StationContract.Presenter> { StationsPresenter(getSource(), get()) }
+    }
+    scope<StationArrivalsFragment> {
+        scoped<StationArrivalsContract.Presenter> { StationArrivalsPresenter(getSource(), get(), get()) }
+    }
+
 
 }
