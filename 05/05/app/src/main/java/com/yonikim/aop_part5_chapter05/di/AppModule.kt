@@ -1,5 +1,6 @@
 package com.yonikim.aop_part5_chapter05.di
 
+import android.app.Activity
 import com.google.firebase.ktx.Firebase
 import com.google.firebase.storage.ktx.storage
 import com.yonikim.aop_part5_chapter05.BuildConfig
@@ -8,17 +9,25 @@ import com.yonikim.aop_part5_chapter05.data.api.StationArrivalsApi
 import com.yonikim.aop_part5_chapter05.data.api.StationStorageApi
 import com.yonikim.aop_part5_chapter05.data.api.Url
 import com.yonikim.aop_part5_chapter05.data.db.AppDatabase
+import com.yonikim.aop_part5_chapter05.data.preference.PreferenceManager
+import com.yonikim.aop_part5_chapter05.data.preference.SharedPreferenceManager
 import com.yonikim.aop_part5_chapter05.data.repository.StationRepository
 import com.yonikim.aop_part5_chapter05.data.repository.StationRepositoryImpl
+import com.yonikim.aop_part5_chapter05.presentation.stationarrivals.StationArrivalsContract
 import com.yonikim.aop_part5_chapter05.presentation.stationarrivals.StationArrivalsFragment
+import com.yonikim.aop_part5_chapter05.presentation.stationarrivals.StationArrivalsPresenter
+import com.yonikim.aop_part5_chapter05.presentation.stations.StationsContract
 import com.yonikim.aop_part5_chapter05.presentation.stations.StationsFragment
+import com.yonikim.aop_part5_chapter05.presentation.stations.StationsPresenter
 import kotlinx.coroutines.Dispatchers
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import org.koin.android.ext.koin.androidApplication
+import org.koin.android.ext.koin.androidContext
 import org.koin.dsl.module
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import retrofit2.create
 
 val appModule = module {
 
@@ -27,6 +36,10 @@ val appModule = module {
     // Database
     single { AppDatabase.build(androidApplication()) }
     single { get<AppDatabase>().stationDao() }
+
+    // Preference
+    single { androidContext().getSharedPreferences("preference", Activity.MODE_PRIVATE) }
+    single<PreferenceManager> { SharedPreferenceManager(get()) }
 
     // Api
     single {
@@ -57,11 +70,9 @@ val appModule = module {
 
     // Presentation
     scope<StationsFragment> {
-        scoped<StationContract.Presenter> { StationsPresenter(getSource(), get()) }
+        scoped<StationsContract.Presenter> { StationsPresenter(getSource(), get()) }
     }
     scope<StationArrivalsFragment> {
         scoped<StationArrivalsContract.Presenter> { StationArrivalsPresenter(getSource(), get(), get()) }
     }
-
-
 }

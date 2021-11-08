@@ -14,5 +14,5 @@ data class ErrorMessage(
     @SerializedName("status")
     val status: Int? = null,
     @SerializedName("total")
-    val total: Int? = null,
+    val total: Int? = null
 )

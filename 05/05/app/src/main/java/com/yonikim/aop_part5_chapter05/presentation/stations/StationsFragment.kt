@@ -1,5 +1,6 @@
 package com.yonikim.aop_part5_chapter05.presentation.stations
 
+import android.annotation.SuppressLint
 import android.app.Activity
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -44,6 +45,7 @@ class StationsFragment : ScopeFragment(), StationsContract.View {
         presenter.onDestroyView()
     }
 
+    @SuppressLint("MissingSuperCall")
     override fun onDestroy() {
         super.onDestroy()
         presenter.onDestroy()
@@ -83,7 +85,7 @@ class StationsFragment : ScopeFragment(), StationsContract.View {
                 findNavController().navigate(action)
             }
             onFavoriteClickListener = { station ->
-                presenter.toggleStationFavorite(station.toString())
+                presenter.toggleStationFavorite(station)
             }
         }
     }

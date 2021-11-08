@@ -10,6 +10,7 @@ import com.yonikim.aop_part5_chapter05.extensions.dip
 import com.yonikim.aop_part5_chapter05.presentation.view.Badge
 
 class StationsAdapter : RecyclerView.Adapter<StationsAdapter.ViewHolder>() {
+
     var data: List<Station> = emptyList()
 
     var onItemClickListener: ((Station) -> Unit)? = null
@@ -22,12 +23,13 @@ class StationsAdapter : RecyclerView.Adapter<StationsAdapter.ViewHolder>() {
 
     override fun getItemCount(): Int = data.size
 
-    inner class ViewHolder(private val binding: ItemStationBinding) :
-        RecyclerView.ViewHolder(binding.root) {
+    inner class ViewHolder(private val binding: ItemStationBinding) : RecyclerView.ViewHolder(binding.root) {
+
         init {
             binding.root.setOnClickListener {
                 onItemClickListener?.invoke(data[adapterPosition])
             }
+
             binding.favorite.setOnClickListener {
                 onFavoriteClickListener?.invoke(data[adapterPosition])
             }
