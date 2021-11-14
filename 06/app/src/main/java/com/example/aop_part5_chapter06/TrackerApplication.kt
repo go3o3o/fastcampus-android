@@ -30,7 +30,7 @@ class TrackerApplication : Application(), Configuration.Provider {
     }
 
     override fun getWorkManagerConfiguration(): Configuration {
-        Configuration.Builder()
+        return Configuration.Builder()
             .setMinimumLoggingLevel(
                 if (BuildConfig.DEBUG) {
                     android.util.Log.DEBUG
@@ -38,7 +38,7 @@ class TrackerApplication : Application(), Configuration.Provider {
                     android.util.Log.INFO
                 }
             )
-            .setWorkerFactory(workerFactory)
+//            .setWorkerFactory()
             .build()
     }
 }
