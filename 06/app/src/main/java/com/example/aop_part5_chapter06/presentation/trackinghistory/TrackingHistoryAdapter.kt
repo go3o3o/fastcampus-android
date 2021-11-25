@@ -13,9 +13,14 @@ class TrackingHistoryAdapter : RecyclerView.Adapter<TrackingHistoryAdapter.ViewH
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
-    ): ViewHolder {
-        ItemTrackingHistoryBinding.inflate(LayoutInflater.from(parent.context), parent, false)
-    }
+    ) = ViewHolder(
+        ItemTrackingHistoryBinding.inflate(
+            LayoutInflater.from(parent.context),
+            parent,
+            false
+        )
+    )
+
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.bind(data[position])
