@@ -1,0 +1,533 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml:2:1-24:12
+MERGED from [androidx.databinding:viewbinding:7.0.3] /Users/yonikim/.gradle/caches/transforms-3/8ee64754a6241bd3be69dfa0cb091446/transformed/jetified-viewbinding-7.0.3/AndroidManifest.xml:17:1-22:12
+MERGED from [org.koin:koin-androidx-fragment:2.2.2] /Users/yonikim/.gradle/caches/transforms-3/ecbdaab003f7efb323786f277980adc0/transformed/jetified-koin-androidx-fragment-2.2.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /Users/yonikim/.gradle/caches/transforms-3/3f3cbfcda02750b23ce99a60b5e1c413/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.5] /Users/yonikim/.gradle/caches/transforms-3/b99de57a228c27b934cc49ce114b6b01/transformed/jetified-fragment-ktx-1.2.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /Users/yonikim/.gradle/caches/transforms-3/d263337d5e72e67ba714681417949021/transformed/navigation-ui-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] /Users/yonikim/.gradle/caches/transforms-3/988f7ef46d4222062314f55125ea8e75/transformed/navigation-runtime-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/yonikim/.gradle/caches/transforms-3/92a0429493e8d6b2ed74f296025607ba/transformed/jetified-activity-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] /Users/yonikim/.gradle/caches/transforms-3/693ec33f49e7533376216fbbe34d8ffa/transformed/navigation-common-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/yonikim/.gradle/caches/transforms-3/a5900163e08ee251f6640f30ffc41538/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/yonikim/.gradle/caches/transforms-3/fe80a282c46798606813d9322e846515/transformed/navigation-ui-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.4.0] /Users/yonikim/.gradle/caches/transforms-3/38f70219f66a4d6ec6b499eb24293f72/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/yonikim/.gradle/caches/transforms-3/69ff98e2fa46f95a36507707879a2857/transformed/constraintlayout-2.1.1/AndroidManifest.xml:2:1-11:12
+MERGED from [org.koin:koin-android-ext:2.2.2] /Users/yonikim/.gradle/caches/transforms-3/dc8df55a94ffcf17e3274098ec7929f3/transformed/jetified-koin-android-ext-2.2.2/AndroidManifest.xml:2:1-9:12
+MERGED from [org.koin:koin-android-viewmodel:2.2.2] /Users/yonikim/.gradle/caches/transforms-3/df11a0f31a5c5bf90105747eb9362ce1/transformed/jetified-koin-android-viewmodel-2.2.2/AndroidManifest.xml:2:1-9:12
+MERGED from [org.koin:koin-android-scope:2.2.2] /Users/yonikim/.gradle/caches/transforms-3/8b049deda76a7cb2892ec55c11a9a00c/transformed/jetified-koin-android-scope-2.2.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/yonikim/.gradle/caches/transforms-3/9efa1075f37f606c5ea75ac56fdf3ca0/transformed/appcompat-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-ktx:2.3.0] /Users/yonikim/.gradle/caches/transforms-3/c4fa4119ab453a096e76203cd4f251a3/transformed/jetified-room-ktx-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime-ktx:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/92bfe3ad94b135d76648cb300f8834a1/transformed/work-runtime-ktx-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/yonikim/.gradle/caches/transforms-3/0b16399a87e1e78f0f05bf0455cb9a2e/transformed/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/yonikim/.gradle/caches/transforms-3/5e1f8c2d52852577bf112acd22aa052b/transformed/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [org.koin:koin-android:2.2.2] /Users/yonikim/.gradle/caches/transforms-3/14d31e00bf2ae1f4f89a502c895d58cb/transformed/jetified-koin-android-2.2.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:17:1-143:12
+MERGED from [androidx.room:room-runtime:2.3.0] /Users/yonikim/.gradle/caches/transforms-3/a7d387da0017a702ac679ccf8c376bea/transformed/room-runtime-2.3.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/259db8e1c48df79b7c81cec5c9c1d1fc/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/yonikim/.gradle/caches/transforms-3/6ecf18be3485aacb837e2cb86af8218e/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/yonikim/.gradle/caches/transforms-3/3f6de2b39d45a9d793945f9aaff5ee38/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/yonikim/.gradle/caches/transforms-3/f02bc463eb63ae5b509a8bbffb41189a/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /Users/yonikim/.gradle/caches/transforms-3/683052c255b64a9208a6d9bd58bd618c/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/yonikim/.gradle/caches/transforms-3/e59c5bd4071bd94e286e1f806b294fdb/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/yonikim/.gradle/caches/transforms-3/2c5e6809edf761681d7dd6b13dd2bec9/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/yonikim/.gradle/caches/transforms-3/baed0e2149d71f30d421905fe4aea055/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/4230749d9ead10c0b5e6eb4e0f0d5013/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yonikim/.gradle/caches/transforms-3/78e6efeee63858930418a4a0ec90c86d/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yonikim/.gradle/caches/transforms-3/9a3105d83e333574c62ec122177261e4/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/f0dcb2802b8264f3ba5a80c5211031ec/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/1c437cbc7f9e6b70f9bb8b2501206643/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/70796f14b11677e78316d135581b50bf/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/yonikim/.gradle/caches/transforms-3/8cda9c83493ae90a1a83375d3f71f24b/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/yonikim/.gradle/caches/transforms-3/9fa4fc83a9c194ecd18d0fb0a070bf02/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/yonikim/.gradle/caches/transforms-3/1b64068c592ed15fc91857d250790684/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /Users/yonikim/.gradle/caches/transforms-3/a5e0df076f1b65b6866d0c875c490f15/transformed/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.5] /Users/yonikim/.gradle/caches/transforms-3/6419bd42369a793f015f6263b9560dbf/transformed/navigation-common-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] /Users/yonikim/.gradle/caches/transforms-3/d1b2ad25cd9b737da640c782ef342d5f/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/65b6b623f46b0c249a2643db60cb6c01/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/yonikim/.gradle/caches/transforms-3/3fa93849d34a10cf0e420e5f41e7e7f8/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/yonikim/.gradle/caches/transforms-3/8a0b4026a54d7cbeb751b44d457bbedf/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/yonikim/.gradle/caches/transforms-3/070ee391a5c723d3bb73937d0f646297/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/yonikim/.gradle/caches/transforms-3/8b0952e8cdb6f664e42347365e86bcca/transformed/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/yonikim/.gradle/caches/transforms-3/3b0aa9345519b6708ed6f993838f9d48/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/yonikim/.gradle/caches/transforms-3/b4e4abe005922a33f661089b21ed8e16/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/591324ec446ef894da5baf6c949f5be6/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/yonikim/.gradle/caches/transforms-3/efac772d9f048c62a321ef2229955ac2/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/yonikim/.gradle/caches/transforms-3/e4138fa6cb3b5714c267c0f9a356510a/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yonikim/.gradle/caches/transforms-3/b347bb45fb4781a94cdbcb42fa8f713d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/a90c7394fb2fffac62e78d5c1c221ead/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/yonikim/.gradle/caches/transforms-3/b3f5a26ecec910f528cc36a62dc2de58/transformed/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/yonikim/.gradle/caches/transforms-3/18ab26980bf04c901f2f553086405170/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/yonikim/.gradle/caches/transforms-3/fb4687c5532172132eee2489d3fbeeff/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/yonikim/.gradle/caches/transforms-3/f7e79c94a8bb90fe43e497edd4efa1f1/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/8a7be4fdfa5cd6a9464edcea697fd46a/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/02c8cf7961c6b5e8bd6ed45bde2e2b15/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/3ac9e6655136cd48d49d788b6279f593/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/069de89b5e6e318e8a99843c263fdf41/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/yonikim/.gradle/caches/transforms-3/1b83fad8c0848ec13cea2e1e09c74704/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml:3:5-46
+		INJECTED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml:5:5-22:19
+MERGED from [org.koin:koin-androidx-fragment:2.2.2] /Users/yonikim/.gradle/caches/transforms-3/ecbdaab003f7efb323786f277980adc0/transformed/jetified-koin-androidx-fragment-2.2.2/AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-androidx-fragment:2.2.2] /Users/yonikim/.gradle/caches/transforms-3/ecbdaab003f7efb323786f277980adc0/transformed/jetified-koin-androidx-fragment-2.2.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.material:material:1.4.0] /Users/yonikim/.gradle/caches/transforms-3/38f70219f66a4d6ec6b499eb24293f72/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /Users/yonikim/.gradle/caches/transforms-3/38f70219f66a4d6ec6b499eb24293f72/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/yonikim/.gradle/caches/transforms-3/69ff98e2fa46f95a36507707879a2857/transformed/constraintlayout-2.1.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/yonikim/.gradle/caches/transforms-3/69ff98e2fa46f95a36507707879a2857/transformed/constraintlayout-2.1.1/AndroidManifest.xml:9:5-20
+MERGED from [org.koin:koin-android-ext:2.2.2] /Users/yonikim/.gradle/caches/transforms-3/dc8df55a94ffcf17e3274098ec7929f3/transformed/jetified-koin-android-ext-2.2.2/AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-android-ext:2.2.2] /Users/yonikim/.gradle/caches/transforms-3/dc8df55a94ffcf17e3274098ec7929f3/transformed/jetified-koin-android-ext-2.2.2/AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-android-viewmodel:2.2.2] /Users/yonikim/.gradle/caches/transforms-3/df11a0f31a5c5bf90105747eb9362ce1/transformed/jetified-koin-android-viewmodel-2.2.2/AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-android-viewmodel:2.2.2] /Users/yonikim/.gradle/caches/transforms-3/df11a0f31a5c5bf90105747eb9362ce1/transformed/jetified-koin-android-viewmodel-2.2.2/AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-android-scope:2.2.2] /Users/yonikim/.gradle/caches/transforms-3/8b049deda76a7cb2892ec55c11a9a00c/transformed/jetified-koin-android-scope-2.2.2/AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-android-scope:2.2.2] /Users/yonikim/.gradle/caches/transforms-3/8b049deda76a7cb2892ec55c11a9a00c/transformed/jetified-koin-android-scope-2.2.2/AndroidManifest.xml:7:5-20
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:30:5-141:19
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:30:5-141:19
+MERGED from [androidx.room:room-runtime:2.3.0] /Users/yonikim/.gradle/caches/transforms-3/a7d387da0017a702ac679ccf8c376bea/transformed/room-runtime-2.3.0/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.3.0] /Users/yonikim/.gradle/caches/transforms-3/a7d387da0017a702ac679ccf8c376bea/transformed/room-runtime-2.3.0/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/yonikim/.gradle/caches/transforms-3/6ecf18be3485aacb837e2cb86af8218e/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/yonikim/.gradle/caches/transforms-3/6ecf18be3485aacb837e2cb86af8218e/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.core:core:1.7.0] /Users/yonikim/.gradle/caches/transforms-3/d1b2ad25cd9b737da640c782ef342d5f/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /Users/yonikim/.gradle/caches/transforms-3/d1b2ad25cd9b737da640c782ef342d5f/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/yonikim/.gradle/caches/transforms-3/070ee391a5c723d3bb73937d0f646297/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/yonikim/.gradle/caches/transforms-3/070ee391a5c723d3bb73937d0f646297/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yonikim/.gradle/caches/transforms-3/b347bb45fb4781a94cdbcb42fa8f713d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yonikim/.gradle/caches/transforms-3/b347bb45fb4781a94cdbcb42fa8f713d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /Users/yonikim/.gradle/caches/transforms-3/d1b2ad25cd9b737da640c782ef342d5f/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml:12:9-55
+	android:name
+		ADDED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml:7:9-43
+activity#com.example.aop_part5_chapter06.presentation.MainActivity
+ADDED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml:13:9-21:20
+	android:exported
+		ADDED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml:15:13-36
+	android:name
+		ADDED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml:14:13-54
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.0.3] /Users/yonikim/.gradle/caches/transforms-3/8ee64754a6241bd3be69dfa0cb091446/transformed/jetified-viewbinding-7.0.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.0.3] /Users/yonikim/.gradle/caches/transforms-3/8ee64754a6241bd3be69dfa0cb091446/transformed/jetified-viewbinding-7.0.3/AndroidManifest.xml:20:5-44
+MERGED from [org.koin:koin-androidx-fragment:2.2.2] /Users/yonikim/.gradle/caches/transforms-3/ecbdaab003f7efb323786f277980adc0/transformed/jetified-koin-androidx-fragment-2.2.2/AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-androidx-fragment:2.2.2] /Users/yonikim/.gradle/caches/transforms-3/ecbdaab003f7efb323786f277980adc0/transformed/jetified-koin-androidx-fragment-2.2.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /Users/yonikim/.gradle/caches/transforms-3/3f3cbfcda02750b23ce99a60b5e1c413/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /Users/yonikim/.gradle/caches/transforms-3/3f3cbfcda02750b23ce99a60b5e1c413/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.5] /Users/yonikim/.gradle/caches/transforms-3/b99de57a228c27b934cc49ce114b6b01/transformed/jetified-fragment-ktx-1.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.5] /Users/yonikim/.gradle/caches/transforms-3/b99de57a228c27b934cc49ce114b6b01/transformed/jetified-fragment-ktx-1.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /Users/yonikim/.gradle/caches/transforms-3/d263337d5e72e67ba714681417949021/transformed/navigation-ui-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /Users/yonikim/.gradle/caches/transforms-3/d263337d5e72e67ba714681417949021/transformed/navigation-ui-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] /Users/yonikim/.gradle/caches/transforms-3/988f7ef46d4222062314f55125ea8e75/transformed/navigation-runtime-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] /Users/yonikim/.gradle/caches/transforms-3/988f7ef46d4222062314f55125ea8e75/transformed/navigation-runtime-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/yonikim/.gradle/caches/transforms-3/92a0429493e8d6b2ed74f296025607ba/transformed/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/yonikim/.gradle/caches/transforms-3/92a0429493e8d6b2ed74f296025607ba/transformed/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] /Users/yonikim/.gradle/caches/transforms-3/693ec33f49e7533376216fbbe34d8ffa/transformed/navigation-common-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] /Users/yonikim/.gradle/caches/transforms-3/693ec33f49e7533376216fbbe34d8ffa/transformed/navigation-common-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/yonikim/.gradle/caches/transforms-3/a5900163e08ee251f6640f30ffc41538/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/yonikim/.gradle/caches/transforms-3/a5900163e08ee251f6640f30ffc41538/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/yonikim/.gradle/caches/transforms-3/fe80a282c46798606813d9322e846515/transformed/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/yonikim/.gradle/caches/transforms-3/fe80a282c46798606813d9322e846515/transformed/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.4.0] /Users/yonikim/.gradle/caches/transforms-3/38f70219f66a4d6ec6b499eb24293f72/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /Users/yonikim/.gradle/caches/transforms-3/38f70219f66a4d6ec6b499eb24293f72/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/yonikim/.gradle/caches/transforms-3/69ff98e2fa46f95a36507707879a2857/transformed/constraintlayout-2.1.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/yonikim/.gradle/caches/transforms-3/69ff98e2fa46f95a36507707879a2857/transformed/constraintlayout-2.1.1/AndroidManifest.xml:5:5-7:41
+MERGED from [org.koin:koin-android-ext:2.2.2] /Users/yonikim/.gradle/caches/transforms-3/dc8df55a94ffcf17e3274098ec7929f3/transformed/jetified-koin-android-ext-2.2.2/AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-android-ext:2.2.2] /Users/yonikim/.gradle/caches/transforms-3/dc8df55a94ffcf17e3274098ec7929f3/transformed/jetified-koin-android-ext-2.2.2/AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-android-viewmodel:2.2.2] /Users/yonikim/.gradle/caches/transforms-3/df11a0f31a5c5bf90105747eb9362ce1/transformed/jetified-koin-android-viewmodel-2.2.2/AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-android-viewmodel:2.2.2] /Users/yonikim/.gradle/caches/transforms-3/df11a0f31a5c5bf90105747eb9362ce1/transformed/jetified-koin-android-viewmodel-2.2.2/AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-android-scope:2.2.2] /Users/yonikim/.gradle/caches/transforms-3/8b049deda76a7cb2892ec55c11a9a00c/transformed/jetified-koin-android-scope-2.2.2/AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-android-scope:2.2.2] /Users/yonikim/.gradle/caches/transforms-3/8b049deda76a7cb2892ec55c11a9a00c/transformed/jetified-koin-android-scope-2.2.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/yonikim/.gradle/caches/transforms-3/9efa1075f37f606c5ea75ac56fdf3ca0/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/yonikim/.gradle/caches/transforms-3/9efa1075f37f606c5ea75ac56fdf3ca0/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.3.0] /Users/yonikim/.gradle/caches/transforms-3/c4fa4119ab453a096e76203cd4f251a3/transformed/jetified-room-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.3.0] /Users/yonikim/.gradle/caches/transforms-3/c4fa4119ab453a096e76203cd4f251a3/transformed/jetified-room-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/92bfe3ad94b135d76648cb300f8834a1/transformed/work-runtime-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/92bfe3ad94b135d76648cb300f8834a1/transformed/work-runtime-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/yonikim/.gradle/caches/transforms-3/0b16399a87e1e78f0f05bf0455cb9a2e/transformed/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/yonikim/.gradle/caches/transforms-3/0b16399a87e1e78f0f05bf0455cb9a2e/transformed/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/yonikim/.gradle/caches/transforms-3/5e1f8c2d52852577bf112acd22aa052b/transformed/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/yonikim/.gradle/caches/transforms-3/5e1f8c2d52852577bf112acd22aa052b/transformed/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [org.koin:koin-android:2.2.2] /Users/yonikim/.gradle/caches/transforms-3/14d31e00bf2ae1f4f89a502c895d58cb/transformed/jetified-koin-android-2.2.2/AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-android:2.2.2] /Users/yonikim/.gradle/caches/transforms-3/14d31e00bf2ae1f4f89a502c895d58cb/transformed/jetified-koin-android-2.2.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.room:room-runtime:2.3.0] /Users/yonikim/.gradle/caches/transforms-3/a7d387da0017a702ac679ccf8c376bea/transformed/room-runtime-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.3.0] /Users/yonikim/.gradle/caches/transforms-3/a7d387da0017a702ac679ccf8c376bea/transformed/room-runtime-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/259db8e1c48df79b7c81cec5c9c1d1fc/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/259db8e1c48df79b7c81cec5c9c1d1fc/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/yonikim/.gradle/caches/transforms-3/6ecf18be3485aacb837e2cb86af8218e/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/yonikim/.gradle/caches/transforms-3/6ecf18be3485aacb837e2cb86af8218e/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/yonikim/.gradle/caches/transforms-3/3f6de2b39d45a9d793945f9aaff5ee38/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/yonikim/.gradle/caches/transforms-3/3f6de2b39d45a9d793945f9aaff5ee38/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/yonikim/.gradle/caches/transforms-3/f02bc463eb63ae5b509a8bbffb41189a/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/yonikim/.gradle/caches/transforms-3/f02bc463eb63ae5b509a8bbffb41189a/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /Users/yonikim/.gradle/caches/transforms-3/683052c255b64a9208a6d9bd58bd618c/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /Users/yonikim/.gradle/caches/transforms-3/683052c255b64a9208a6d9bd58bd618c/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/yonikim/.gradle/caches/transforms-3/e59c5bd4071bd94e286e1f806b294fdb/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/yonikim/.gradle/caches/transforms-3/e59c5bd4071bd94e286e1f806b294fdb/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/yonikim/.gradle/caches/transforms-3/2c5e6809edf761681d7dd6b13dd2bec9/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/yonikim/.gradle/caches/transforms-3/2c5e6809edf761681d7dd6b13dd2bec9/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/yonikim/.gradle/caches/transforms-3/baed0e2149d71f30d421905fe4aea055/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/yonikim/.gradle/caches/transforms-3/baed0e2149d71f30d421905fe4aea055/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/4230749d9ead10c0b5e6eb4e0f0d5013/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/4230749d9ead10c0b5e6eb4e0f0d5013/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yonikim/.gradle/caches/transforms-3/78e6efeee63858930418a4a0ec90c86d/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yonikim/.gradle/caches/transforms-3/78e6efeee63858930418a4a0ec90c86d/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yonikim/.gradle/caches/transforms-3/9a3105d83e333574c62ec122177261e4/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yonikim/.gradle/caches/transforms-3/9a3105d83e333574c62ec122177261e4/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/f0dcb2802b8264f3ba5a80c5211031ec/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/f0dcb2802b8264f3ba5a80c5211031ec/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/1c437cbc7f9e6b70f9bb8b2501206643/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/1c437cbc7f9e6b70f9bb8b2501206643/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/70796f14b11677e78316d135581b50bf/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/70796f14b11677e78316d135581b50bf/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/yonikim/.gradle/caches/transforms-3/8cda9c83493ae90a1a83375d3f71f24b/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/yonikim/.gradle/caches/transforms-3/8cda9c83493ae90a1a83375d3f71f24b/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/yonikim/.gradle/caches/transforms-3/9fa4fc83a9c194ecd18d0fb0a070bf02/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/yonikim/.gradle/caches/transforms-3/9fa4fc83a9c194ecd18d0fb0a070bf02/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/yonikim/.gradle/caches/transforms-3/1b64068c592ed15fc91857d250790684/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/yonikim/.gradle/caches/transforms-3/1b64068c592ed15fc91857d250790684/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/yonikim/.gradle/caches/transforms-3/a5e0df076f1b65b6866d0c875c490f15/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/yonikim/.gradle/caches/transforms-3/a5e0df076f1b65b6866d0c875c490f15/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] /Users/yonikim/.gradle/caches/transforms-3/6419bd42369a793f015f6263b9560dbf/transformed/navigation-common-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] /Users/yonikim/.gradle/caches/transforms-3/6419bd42369a793f015f6263b9560dbf/transformed/navigation-common-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/yonikim/.gradle/caches/transforms-3/d1b2ad25cd9b737da640c782ef342d5f/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/yonikim/.gradle/caches/transforms-3/d1b2ad25cd9b737da640c782ef342d5f/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/65b6b623f46b0c249a2643db60cb6c01/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/65b6b623f46b0c249a2643db60cb6c01/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/yonikim/.gradle/caches/transforms-3/3fa93849d34a10cf0e420e5f41e7e7f8/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/yonikim/.gradle/caches/transforms-3/3fa93849d34a10cf0e420e5f41e7e7f8/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/yonikim/.gradle/caches/transforms-3/8a0b4026a54d7cbeb751b44d457bbedf/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/yonikim/.gradle/caches/transforms-3/8a0b4026a54d7cbeb751b44d457bbedf/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/yonikim/.gradle/caches/transforms-3/070ee391a5c723d3bb73937d0f646297/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/yonikim/.gradle/caches/transforms-3/070ee391a5c723d3bb73937d0f646297/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/yonikim/.gradle/caches/transforms-3/8b0952e8cdb6f664e42347365e86bcca/transformed/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/yonikim/.gradle/caches/transforms-3/8b0952e8cdb6f664e42347365e86bcca/transformed/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/yonikim/.gradle/caches/transforms-3/3b0aa9345519b6708ed6f993838f9d48/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/yonikim/.gradle/caches/transforms-3/3b0aa9345519b6708ed6f993838f9d48/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/yonikim/.gradle/caches/transforms-3/b4e4abe005922a33f661089b21ed8e16/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/yonikim/.gradle/caches/transforms-3/b4e4abe005922a33f661089b21ed8e16/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/591324ec446ef894da5baf6c949f5be6/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/591324ec446ef894da5baf6c949f5be6/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/yonikim/.gradle/caches/transforms-3/efac772d9f048c62a321ef2229955ac2/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/yonikim/.gradle/caches/transforms-3/efac772d9f048c62a321ef2229955ac2/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/yonikim/.gradle/caches/transforms-3/e4138fa6cb3b5714c267c0f9a356510a/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/yonikim/.gradle/caches/transforms-3/e4138fa6cb3b5714c267c0f9a356510a/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yonikim/.gradle/caches/transforms-3/b347bb45fb4781a94cdbcb42fa8f713d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yonikim/.gradle/caches/transforms-3/b347bb45fb4781a94cdbcb42fa8f713d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/a90c7394fb2fffac62e78d5c1c221ead/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/a90c7394fb2fffac62e78d5c1c221ead/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/yonikim/.gradle/caches/transforms-3/b3f5a26ecec910f528cc36a62dc2de58/transformed/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/yonikim/.gradle/caches/transforms-3/b3f5a26ecec910f528cc36a62dc2de58/transformed/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/yonikim/.gradle/caches/transforms-3/18ab26980bf04c901f2f553086405170/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/yonikim/.gradle/caches/transforms-3/18ab26980bf04c901f2f553086405170/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/yonikim/.gradle/caches/transforms-3/fb4687c5532172132eee2489d3fbeeff/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/yonikim/.gradle/caches/transforms-3/fb4687c5532172132eee2489d3fbeeff/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/yonikim/.gradle/caches/transforms-3/f7e79c94a8bb90fe43e497edd4efa1f1/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/yonikim/.gradle/caches/transforms-3/f7e79c94a8bb90fe43e497edd4efa1f1/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/8a7be4fdfa5cd6a9464edcea697fd46a/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/8a7be4fdfa5cd6a9464edcea697fd46a/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/02c8cf7961c6b5e8bd6ed45bde2e2b15/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/02c8cf7961c6b5e8bd6ed45bde2e2b15/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/3ac9e6655136cd48d49d788b6279f593/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/3ac9e6655136cd48d49d788b6279f593/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/069de89b5e6e318e8a99843c263fdf41/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/yonikim/.gradle/caches/transforms-3/069de89b5e6e318e8a99843c263fdf41/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/yonikim/.gradle/caches/transforms-3/1b83fad8c0848ec13cea2e1e09c74704/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/yonikim/.gradle/caches/transforms-3/1b83fad8c0848ec13cea2e1e09c74704/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yonikim/git/fastcampus-android/06/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:25:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:26:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:27:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:28:22-74
+provider#androidx.work.impl.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:31:9-37:35
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:33:13-68
+	android:multiprocess
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:36:13-40
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:35:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:34:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:32:13-69
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:39:9-44:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:42:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:43:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:44:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:40:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:45:9-51:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:48:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:49:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:50:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:51:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:47:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:46:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:52:9-57:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:55:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:56:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:57:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:54:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:53:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:59:9-64:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:62:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:63:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:64:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:61:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:60:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:65:9-75:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:68:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:69:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:70:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:67:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:66:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:71:13-74:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:72:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:72:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:73:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:73:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:76:9-86:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:79:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:80:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:81:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:78:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:77:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:82:13-85:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:83:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:83:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:84:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:84:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:87:9-97:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:90:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:91:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:92:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:89:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:88:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:93:13-96:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:94:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:94:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:95:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:95:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:98:9-107:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:101:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:102:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:103:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:100:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:99:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:104:13-106:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:105:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:105:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:108:9-119:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:111:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:112:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:113:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:110:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:109:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:114:13-118:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:115:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:115:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:116:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:116:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:117:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:117:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:120:9-129:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:123:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:124:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:125:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:122:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:121:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:126:13-128:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:127:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:127:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:130:9-140:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:133:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:134:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:135:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:136:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:132:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:131:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:137:13-139:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:138:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/yonikim/.gradle/caches/transforms-3/bd1d49b235e3b1d0c09933adc7c51966/transformed/work-runtime-2.5.0/AndroidManifest.xml:138:25-85
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.3.0] /Users/yonikim/.gradle/caches/transforms-3/a7d387da0017a702ac679ccf8c376bea/transformed/room-runtime-2.3.0/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.3.0] /Users/yonikim/.gradle/caches/transforms-3/a7d387da0017a702ac679ccf8c376bea/transformed/room-runtime-2.3.0/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.3.0] /Users/yonikim/.gradle/caches/transforms-3/a7d387da0017a702ac679ccf8c376bea/transformed/room-runtime-2.3.0/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.3.0] /Users/yonikim/.gradle/caches/transforms-3/a7d387da0017a702ac679ccf8c376bea/transformed/room-runtime-2.3.0/AndroidManifest.xml:26:13-74
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/yonikim/.gradle/caches/transforms-3/070ee391a5c723d3bb73937d0f646297/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/yonikim/.gradle/caches/transforms-3/070ee391a5c723d3bb73937d0f646297/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/yonikim/.gradle/caches/transforms-3/070ee391a5c723d3bb73937d0f646297/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/yonikim/.gradle/caches/transforms-3/070ee391a5c723d3bb73937d0f646297/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/yonikim/.gradle/caches/transforms-3/070ee391a5c723d3bb73937d0f646297/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79

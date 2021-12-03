@@ -14,8 +14,8 @@ import com.example.aop_part5_chapter06.extension.toReadableDateString
 import java.util.*
 
 class TrackingItemsAdapter : RecyclerView.Adapter<TrackingItemsAdapter.ViewHolder>() {
-    private var data: List<Pair<TrackingItem, TrackingInformation>> = emptyList()
-    private var onClickItemListener: ((TrackingItem, TrackingInformation) -> Unit)? = null
+    var data: List<Pair<TrackingItem, TrackingInformation>> = emptyList()
+    var onClickItemListener: ((TrackingItem, TrackingInformation) -> Unit)? = null
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder =
         ViewHolder(

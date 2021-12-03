@@ -24,6 +24,7 @@ android {
         buildConfigField "String", "SWEET_TRACKER_API_KEY", properties["SWEET_TRACKER_API_KEY"]
     }
 
+
     buildTypes {
         release {
             minifyEnabled false

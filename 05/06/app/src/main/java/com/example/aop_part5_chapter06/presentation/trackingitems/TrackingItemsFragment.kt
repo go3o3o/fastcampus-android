@@ -1,6 +1,22 @@
 package com.example.aop_part5_chapter06.presentation.trackingitems
 
-class TrackingItemsFragment: ScopeFragment(), TrackingItemContract.View {
+import android.os.Bundle
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.example.aop_part5_chapter06.R
+import com.example.aop_part5_chapter06.data.entity.TrackingInformation
+import com.example.aop_part5_chapter06.data.entity.TrackingItem
+import com.example.aop_part5_chapter06.databinding.FragmentTrackingItemsBinding
+import com.example.aop_part5_chapter06.extension.toGone
+import com.example.aop_part5_chapter06.extension.toInvisible
+import com.example.aop_part5_chapter06.extension.toVisible
+import org.koin.android.scope.ScopeFragment
+
+class TrackingItemsFragment: ScopeFragment(), TrackingItemsContract.View {
     override val presenter: TrackingItemsContract.Presenter by inject()
 
     private var binding: FragmentTrackingItemsBinding? = null
