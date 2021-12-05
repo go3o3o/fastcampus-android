@@ -38,7 +38,7 @@ class TrackerApplication : Application(), Configuration.Provider {
                     android.util.Log.INFO
                 }
             )
-//            .setWorkerFactory()
+            .setWorkerFactory(workerFactory)
             .build()
     }
 }
