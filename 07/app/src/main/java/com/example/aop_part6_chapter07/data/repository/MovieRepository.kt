@@ -1,9 +1,8 @@
-package com.example.aop_part6_chapter07.data.api
+package com.example.aop_part6_chapter07.data.repository
 
 import com.example.aop_part6_chapter07.domain.model.Movie
 
-interface MovieApi {
-
+interface MovieRepository {
     suspend fun getAllMovies(): List<Movie>
 
     suspend fun getMovies(movieIds: List<String>): List<Movie>
