@@ -1,6 +1,7 @@
 package com.example.aop_part6_chapter07.data.api
 
-import com.google.firebase.firestore.auth.User
+import com.example.aop_part6_chapter07.domain.model.User
+
 
 interface UserApi {
 
