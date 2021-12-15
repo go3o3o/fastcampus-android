@@ -1,5 +1,6 @@
 package com.example.aop_part6_chapter07.domain.usecase
 
+import com.example.aop_part6_chapter07.data.repository.ReviewRepository
 import com.example.aop_part6_chapter07.domain.model.Review
 
 class DeleteReviewUseCase(
