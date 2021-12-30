@@ -7,6 +7,15 @@ import com.example.aop_part6_chapter07.data.preference.SharedPreferenceManager
 import com.example.aop_part6_chapter07.data.repository.*
 import com.example.aop_part6_chapter07.domain.model.Movie
 import com.example.aop_part6_chapter07.domain.usecase.*
+import com.example.aop_part6_chapter07.presentation.home.HomeContract
+import com.example.aop_part6_chapter07.presentation.home.HomeFragment
+import com.example.aop_part6_chapter07.presentation.home.HomePresenter
+import com.example.aop_part6_chapter07.presentation.mypage.MyPageContract
+import com.example.aop_part6_chapter07.presentation.mypage.MyPageFragment
+import com.example.aop_part6_chapter07.presentation.mypage.MyPagePresenter
+import com.example.aop_part6_chapter07.presentation.reviews.MovieReviewsContract
+import com.example.aop_part6_chapter07.presentation.reviews.MovieReviewsFragment
+import com.example.aop_part6_chapter07.presentation.reviews.MovieReviewsPresenter
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import kotlinx.coroutines.Dispatchers
