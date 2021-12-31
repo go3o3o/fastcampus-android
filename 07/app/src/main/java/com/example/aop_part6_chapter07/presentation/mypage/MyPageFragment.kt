@@ -13,7 +13,6 @@ import com.example.aop_part6_chapter07.extension.dip
 import com.example.aop_part6_chapter07.extension.toGone
 import com.example.aop_part6_chapter07.extension.toVisible
 import com.example.aop_part6_chapter07.presentation.home.GridSpacingItemDecoration
-import fastcampus.aop.part5.chapter07.presentation.mypage.MyPageFragmentDirections
 import org.koin.android.scope.ScopeFragment
 
 class MyPageFragment : ScopeFragment(), MyPageContract.View {

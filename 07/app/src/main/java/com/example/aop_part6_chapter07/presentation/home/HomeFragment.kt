@@ -15,7 +15,6 @@ import com.example.aop_part6_chapter07.extension.toGone
 import com.example.aop_part6_chapter07.extension.toVisible
 import com.example.aop_part6_chapter07.presentation.home.HomeAdapter.Companion.ITEM_VIEW_TYPE_FEATURED
 import com.example.aop_part6_chapter07.presentation.home.HomeAdapter.Companion.ITEM_VIEW_TYPE_SECTION_HEADER
-import fastcampus.aop.part5.chapter07.presentation.home.HomeFragmentDirections
 import org.koin.android.scope.ScopeFragment
 
 class HomeFragment : ScopeFragment(), HomeContract.View {

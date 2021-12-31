@@ -2,7 +2,7 @@ package com.example.aop_part6_chapter07.domain.model
 
 import android.os.Parcelable
 import com.google.firebase.firestore.DocumentId
-import kotlinx.android.parcel.Parcelize
+import kotlinx.parcelize.Parcelize
 
 @Parcelize
 data class Movie(

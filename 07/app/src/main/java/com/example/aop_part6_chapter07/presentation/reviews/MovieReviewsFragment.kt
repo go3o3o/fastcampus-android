@@ -18,7 +18,6 @@ import com.example.aop_part6_chapter07.domain.model.MovieReviews
 import com.example.aop_part6_chapter07.domain.model.Review
 import com.example.aop_part6_chapter07.extension.toGone
 import com.example.aop_part6_chapter07.extension.toVisible
-import fastcampus.aop.part5.chapter07.presentation.reviews.MovieReviewsFragmentArgs
 import org.koin.android.scope.ScopeFragment
 import org.koin.core.parameter.parametersOf
 
