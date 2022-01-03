@@ -1,4 +1,0 @@
-com/example/aop_part5_chapter06/databinding/ActivityMainBinding.java
- com.example.aop_part5_chapter06.databinding.ActivityMainBinding
-com/example/aop_part5_chapter06/BuildConfig.java
- com.example.aop_part5_chapter06.BuildConfig
