@@ -1,4 +1,4 @@
-package com.example.aop_part6_chapter01
+package com.yonikim.aop_part6_chapter01
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.example.aop_part6_chapter01", appContext.packageName)
+        assertEquals("com.yonikim.aop_part6_chapter01", appContext.packageName)
     }
 }

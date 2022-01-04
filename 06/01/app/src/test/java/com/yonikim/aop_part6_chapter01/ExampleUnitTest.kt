@@ -1,4 +1,4 @@
-package com.example.aop_part6_chapter01
+package com.yonikim.aop_part6_chapter01
 
 import org.junit.Test
 
