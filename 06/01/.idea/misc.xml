@@ -21,6 +21,9 @@
         <entry key="app/src/main/res/drawable/ic_refresh.xml" value="0.11203703703703703" />
         <entry key="app/src/main/res/drawable/ic_star.xml" value="0.11203703703703703" />
         <entry key="app/src/main/res/drawable/ic_thunder.xml" value="0.11203703703703703" />
+        <entry key="app/src/main/res/layout/activity_add_restaurant_review.xml" value="0.192481884057971" />
+        <entry key="app/src/main/res/layout/activity_camera.xml" value="0.192481884057971" />
+        <entry key="app/src/main/res/layout/activity_gallery.xml" value="0.192481884057971" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19701086956521738" />
         <entry key="app/src/main/res/menu/bottom_navigation_menu.xml" value="0.24114583333333334" />
       </map>
