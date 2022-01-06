@@ -17,4 +17,11 @@
 
     <color name="gray">#B1B1B1</color>
     <color name="gray_cc">#cccccc</color>
+
+    <color name="bg_filter_chip_state_list">#F2CEFB</color>
+    <color name="text_filter_chip_state_list">#531850</color>
+    <color name="icon_filter_chip_state_list_reset">#CC0081</color>
+
+    <color name="icon_filter_chip_state_list_delivery_fast">#3DCC00</color>
+    <color name="icon_filter_chip_state_list_low_delivery_tip">#2F473A</color>
 </resources>
