@@ -5,6 +5,7 @@ import com.google.firebase.firestore.QuerySnapshot
 import com.yonikim.aop_part6_chapter01.data.entity.order.OrderEntity
 import com.yonikim.aop_part6_chapter01.data.entity.restaurant.RestaurantFoodEntity
 import kotlinx.coroutines.CoroutineDispatcher
+import kotlinx.coroutines.tasks.await
 import kotlinx.coroutines.withContext
 
 class DefaultOrderRepository(
