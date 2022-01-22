@@ -3,6 +3,7 @@ package com.yonikim.aop_part6_chapter01.data.repository.restaurant.review
 import com.google.firebase.firestore.FirebaseFirestore
 import com.yonikim.aop_part6_chapter01.data.entity.review.ReviewEntity
 import kotlinx.coroutines.CoroutineDispatcher
+import kotlinx.coroutines.tasks.await
 import kotlinx.coroutines.withContext
 
 class DefaultRestaurantReviewRepository(
@@ -12,14 +13,6 @@ class DefaultRestaurantReviewRepository(
 
     @Suppress("UNCHECKED_CAST")
     override suspend fun getReviews(restaurantTitle: String): Result = withContext(ioDispatcher) {
-        /*return@withContext (0..10).map {
-            RestaurantReviewEntity(
-                id = 0,
-                title = "제목 $it",
-                description = "내용 $it",
-                grade = (1 until 5).random(),
-            )
-        }*/
         return@withContext try {
             val snapshot = firestore
                 .collection("review")
