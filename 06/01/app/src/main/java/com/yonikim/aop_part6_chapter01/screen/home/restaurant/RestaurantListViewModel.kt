@@ -8,12 +8,13 @@ import com.yonikim.aop_part6_chapter01.data.repository.restaurant.RestaurantRepo
 import com.yonikim.aop_part6_chapter01.model.restaurant.RestaurantModel
 import com.yonikim.aop_part6_chapter01.screen.base.BaseViewModel
 import kotlinx.coroutines.Job
+import kotlinx.coroutines.launch
 
 class RestaurantListViewModel(
     private val restaurantCategory: RestaurantCategory,
     private var locationLatLngEntity: LocationLatLngEntity,
     private val restaurantRepository: RestaurantRepository,
-    private var restaurantFilterOrder: RestautantFilterOrder = RestautantFilterOrder.DEFAULT
+    private var restaurantFilterOrder: RestaurantFilterOrder = RestaurantFilterOrder.DEFAULT
 ) : BaseViewModel() {
 
     private var _restaurantListLiveData = MutableLiveData<List<RestaurantModel>>()
@@ -23,16 +24,16 @@ class RestaurantListViewModel(
     override fun fetchData(): Job = viewModelScope.launch {
         val restaurantList = restaurantRepository.getList(restaurantCategory, locationLatLngEntity)
         val sortedList = when (restaurantFilterOrder) {
-            RestautantFilterOrder.DEFAULT -> {
+            RestaurantFilterOrder.DEFAULT -> {
                 restaurantList
             }
-            RestautantFilterOrder.LOW_DELIVERY_TIP -> {
+            RestaurantFilterOrder.LOW_DELIVERY_TIP -> {
                 restaurantList.sortedBy { it.deliveryTipRange.first }
             }
-            RestautantFilterOrder.FAST_DELIVERY -> {
+            RestaurantFilterOrder.FAST_DELIVERY -> {
                 restaurantList.sortedBy { it.deliveryTimeRange.first }
             }
-            RestautantFilterOrder.TOP_RATE -> {
+            RestaurantFilterOrder.TOP_RATE -> {
                 restaurantList.sortedByDescending { it.grade }
             }
         }
@@ -57,7 +58,7 @@ class RestaurantListViewModel(
         fetchData()
     }
 
-    fun setRestaurantFilterOrder(order: RestautantFilterOrder) {
+    fun setRestaurantFilterOrder(order: RestaurantFilterOrder) {
         this.restaurantFilterOrder = order
         fetchData()
     }
