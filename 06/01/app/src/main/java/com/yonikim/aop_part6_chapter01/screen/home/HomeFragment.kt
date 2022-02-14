@@ -1,5 +1,28 @@
 package com.yonikim.aop_part6_chapter01.screen.home
 
+import android.Manifest
+import android.app.Activity
+import android.app.AlertDialog
+import android.location.Location
+import android.location.LocationListener
+import android.location.LocationManager
+import android.widget.Toast
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.core.view.isGone
+import androidx.core.view.isVisible
+import com.google.android.material.tabs.TabLayoutMediator
+import com.google.firebase.auth.FirebaseAuth
+import com.yonikim.aop_part6_chapter01.R
+import com.yonikim.aop_part6_chapter01.data.entity.location.LocationLatLngEntity
+import com.yonikim.aop_part6_chapter01.data.entity.location.MapSearchInfoEntity
+import com.yonikim.aop_part6_chapter01.databinding.FragmentHomeBinding
+import com.yonikim.aop_part6_chapter01.screen.base.BaseFragment
+import com.yonikim.aop_part6_chapter01.screen.home.HomeViewModel.Companion.MY_LOCATION_KEY
+import com.yonikim.aop_part6_chapter01.screen.home.restaurant.RestaurantCategory
+import com.yonikim.aop_part6_chapter01.screen.home.restaurant.RestaurantFilterOrder
+import com.yonikim.aop_part6_chapter01.screen.home.restaurant.RestaurantListFragment
+import org.koin.android.viewmodel.compat.ScopeCompat.viewModel
+
 class HomeFragment : BaseFragment<HomeViewModel, FragmentHomeBinding>() {
 
     companion object {
@@ -67,22 +90,22 @@ class HomeFragment : BaseFragment<HomeViewModel, FragmentHomeBinding>() {
             when (checkedId) {
                 R.id.chipDefault -> {
                     chipInitialize.isGone = true
-                    changeRestaurantFilterOrder(RestautantFilterOrder.DEFAULT)
+                    changeRestaurantFilterOrder(RestaurantFilterOrder.DEFAULT)
                 }
                 R.id.chipInitialize -> {
                     chipDefault.isChecked = true
                 }
                 R.id.chipDeliveryTip -> {
                     chipInitialize.isVisible = true
-                    changeRestaurantFilterOrder(RestautantFilterOrder.LOW_DELIVERY_TIP)
+                    changeRestaurantFilterOrder(RestaurantFilterOrder.LOW_DELIVERY_TIP)
                 }
                 R.id.chipFastDelivery -> {
                     chipInitialize.isVisible = true
-                    changeRestaurantFilterOrder(RestautantFilterOrder.FAST_DELIVERY)
+                    changeRestaurantFilterOrder(RestaurantFilterOrder.FAST_DELIVERY)
                 }
                 R.id.chipTopRate -> {
                     chipInitialize.isVisible = true
-                    changeRestaurantFilterOrder(RestautantFilterOrder.TOP_RATE)
+                    changeRestaurantFilterOrder(RestaurantFilterOrder.TOP_RATE)
                 }
             }
         }
@@ -103,7 +126,7 @@ class HomeFragment : BaseFragment<HomeViewModel, FragmentHomeBinding>() {
             .show()
     }
 
-    private fun changeRestaurantFilterOrder(order: RestautantFilterOrder) {
+    private fun changeRestaurantFilterOrder(order: RestaurantFilterOrder) {
         viewPagerAdapter.fragmentList.forEach {
             it.viewModel.setRestaurantFilterOrder(order)
         }
