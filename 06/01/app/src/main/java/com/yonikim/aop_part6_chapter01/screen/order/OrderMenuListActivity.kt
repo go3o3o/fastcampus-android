@@ -1,5 +1,15 @@
 package com.yonikim.aop_part6_chapter01.screen.order
 
+import android.content.Context
+import android.content.Intent
+import android.widget.Toast
+import androidx.core.view.isGone
+import androidx.core.view.isVisible
+import com.yonikim.aop_part6_chapter01.databinding.ActivityOrderMenuListBinding
+import com.yonikim.aop_part6_chapter01.model.restaurant.FoodModel
+import com.yonikim.aop_part6_chapter01.screen.base.BaseActivity
+import org.koin.android.viewmodel.compat.ScopeCompat.viewModel
+
 class OrderMenuListActivity : BaseActivity<OrderMenuListViewModel, ActivityOrderMenuListBinding>() {
 
     override val viewModel by viewModel<OrderMenuListViewModel>()
