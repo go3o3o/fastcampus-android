@@ -52,4 +52,6 @@ abstract class BaseFragment<VM : BaseViewModel, VB : ViewBinding> : Fragment() {
         }
     }
 
+    abstract fun <T> ModelRecyclerAdapter(listOf: Any, viewModel: VM, adapterListener: Any)
+
 }
