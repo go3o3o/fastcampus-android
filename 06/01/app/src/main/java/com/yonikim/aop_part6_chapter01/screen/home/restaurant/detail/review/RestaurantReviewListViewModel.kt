@@ -1,5 +1,16 @@
 package com.yonikim.aop_part6_chapter01.screen.home.restaurant.detail.review
 
+import android.net.Uri
+import android.util.Log
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.viewModelScope
+import com.yonikim.aop_part6_chapter01.data.entity.review.ReviewEntity
+import com.yonikim.aop_part6_chapter01.data.repository.restaurant.review.DefaultRestaurantReviewRepository
+import com.yonikim.aop_part6_chapter01.data.repository.restaurant.review.RestaurantReviewRepository
+import com.yonikim.aop_part6_chapter01.model.restaurant.RestaurantReviewModel
+import com.yonikim.aop_part6_chapter01.screen.base.BaseViewModel
+import kotlinx.coroutines.Job
+
 class RestaurantReviewListViewModel(
     private val restaurantTitle: String,
     private val restaurantReviewRepository: RestaurantReviewRepository
