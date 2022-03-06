@@ -10,6 +10,7 @@ import com.yonikim.aop_part6_chapter01.data.repository.restaurant.review.Restaur
 import com.yonikim.aop_part6_chapter01.model.restaurant.RestaurantReviewModel
 import com.yonikim.aop_part6_chapter01.screen.base.BaseViewModel
 import kotlinx.coroutines.Job
+import kotlinx.coroutines.launch
 
 class RestaurantReviewListViewModel(
     private val restaurantTitle: String,
