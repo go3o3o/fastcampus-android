@@ -1,5 +1,24 @@
 package com.yonikim.aop_part6_chapter01.screen.review
 
+import android.app.Activity
+import android.app.AlertDialog
+import android.content.Context
+import android.content.Intent
+import android.content.pm.PackageManager
+import android.net.Uri
+import android.os.Bundle
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
+import androidx.core.view.isVisible
+import androidx.lifecycle.lifecycleScope
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.storage.FirebaseStorage
+import com.yonikim.aop_part6_chapter01.databinding.ActivityAddRestaurantReviewBinding
+import org.koin.android.ext.android.inject
+
+
 class AddRestaurantReviewActivity : AppCompatActivity() {
 
     private var imageUriList: ArrayList<Uri> = arrayListOf()
