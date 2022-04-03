@@ -1,4 +1,4 @@
-package com.yonikim.aop_part6_chapter01.widget.adapter.review
+package com.yonikim.aop_part6_chapter01.widget.adapter.viewholder.review
 
 import androidx.core.view.isGone
 import androidx.core.view.isVisible
