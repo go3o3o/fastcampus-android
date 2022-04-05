@@ -1,15 +1,43 @@
 package com.yonikim.aop_part6_chapter01.di
 
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.ktx.Firebase
+import com.google.firebase.storage.ktx.storage
 import com.yonikim.aop_part6_chapter01.data.entity.location.LocationLatLngEntity
 import com.yonikim.aop_part6_chapter01.data.entity.location.MapSearchInfoEntity
 import com.yonikim.aop_part6_chapter01.data.entity.restaurant.RestaurantEntity
+import com.yonikim.aop_part6_chapter01.data.entity.restaurant.RestaurantFoodEntity
+import com.yonikim.aop_part6_chapter01.data.preference.AppPreferenceManager
+import com.yonikim.aop_part6_chapter01.data.repository.map.DefaultMapRepository
+import com.yonikim.aop_part6_chapter01.data.repository.map.MapRepository
+import com.yonikim.aop_part6_chapter01.data.repository.order.DefaultOrderRepository
+import com.yonikim.aop_part6_chapter01.data.repository.order.OrderRepository
+import com.yonikim.aop_part6_chapter01.data.repository.restaurant.DefaultRestaurantRepository
+import com.yonikim.aop_part6_chapter01.data.repository.restaurant.RestaurantRepository
+import com.yonikim.aop_part6_chapter01.data.repository.restaurant.food.DefaultRestaurantFoodRepository
+import com.yonikim.aop_part6_chapter01.data.repository.restaurant.food.RestaurantFoodRepository
+import com.yonikim.aop_part6_chapter01.data.repository.restaurant.review.DefaultRestaurantReviewRepository
+import com.yonikim.aop_part6_chapter01.data.repository.restaurant.review.RestaurantReviewRepository
+import com.yonikim.aop_part6_chapter01.data.repository.user.DefaultUserRepository
+import com.yonikim.aop_part6_chapter01.data.repository.user.UserRepository
 import com.yonikim.aop_part6_chapter01.screen.MainViewModel
 import com.yonikim.aop_part6_chapter01.screen.home.HomeViewModel
 import com.yonikim.aop_part6_chapter01.screen.home.restaurant.RestaurantCategory
 import com.yonikim.aop_part6_chapter01.screen.home.restaurant.RestaurantListViewModel
 import com.yonikim.aop_part6_chapter01.screen.home.restaurant.detail.RestaurantDetailViewModel
+import com.yonikim.aop_part6_chapter01.screen.home.restaurant.detail.menu.RestaurantMenuListViewModel
+import com.yonikim.aop_part6_chapter01.screen.home.restaurant.detail.review.RestaurantReviewListViewModel
 import com.yonikim.aop_part6_chapter01.screen.like.RestaurantLikeListViewModel
+import com.yonikim.aop_part6_chapter01.screen.order.OrderMenuListViewModel
+import com.yonikim.aop_part6_chapter01.util.event.MenuChangeEventBus
+import com.yonikim.aop_part6_chapter01.util.provider.DefaultResourcesProvider
+import com.yonikim.aop_part6_chapter01.util.provider.ResourcesProvider
+import kotlinx.coroutines.Dispatchers
+import org.koin.android.ext.koin.androidApplication
+import org.koin.android.ext.koin.androidContext
 import org.koin.android.viewmodel.dsl.viewModel
+import org.koin.core.qualifier.named
 import org.koin.dsl.module
 
 val appModule = module {
