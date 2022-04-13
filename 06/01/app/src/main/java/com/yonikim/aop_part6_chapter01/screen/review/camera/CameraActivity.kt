@@ -1,5 +1,39 @@
 package com.yonikim.aop_part6_chapter01.screen.review.camera
 
+import android.Manifest
+import android.annotation.SuppressLint
+import android.app.Activity
+import android.content.Context
+import android.content.Intent
+import android.content.pm.PackageManager
+import android.hardware.display.DisplayManager
+import android.media.MediaScannerConnection
+import android.net.Uri
+import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
+import android.view.ScaleGestureDetector
+import android.view.View
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import androidx.camera.core.*
+import androidx.camera.core.ImageCapture.CAPTURE_MODE_MINIMIZE_LATENCY
+import androidx.camera.core.ImageCapture.FLASH_MODE_AUTO
+import androidx.camera.core.impl.ImageOutputConfig
+import androidx.camera.lifecycle.ProcessCameraProvider
+import androidx.camera.view.PreviewView
+import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
+import com.yonikim.aop_part6_chapter01.databinding.ActivityCameraBinding
+import com.yonikim.aop_part6_chapter01.extensions.load
+import com.yonikim.aop_part6_chapter01.util.path.PathUtil
+import java.io.File
+import java.io.FileNotFoundException
+import java.text.SimpleDateFormat
+import java.util.*
+import java.util.concurrent.ExecutorService
+import java.util.concurrent.Executors
+
 class CameraActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityCameraBinding
