@@ -8,6 +8,8 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager2.widget.ViewPager2
+import com.yonikim.aop_part6_chapter01.R
+import com.yonikim.aop_part6_chapter01.databinding.ActivityImagePreviewListBinding
 import com.yonikim.aop_part6_chapter01.util.path.PathUtil
 import com.yonikim.aop_part6_chapter01.widget.adapter.ImageViewPagerAdapter
 import java.io.File
