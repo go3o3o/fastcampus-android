@@ -32,6 +32,7 @@ import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 import com.yonikim.aop_part6_chapter01.databinding.ActivityCameraBinding
 import com.yonikim.aop_part6_chapter01.extensions.load
+import com.yonikim.aop_part6_chapter01.screen.review.camera.preview.ImagePreviewListActivity
 import com.yonikim.aop_part6_chapter01.util.path.PathUtil
 
 
