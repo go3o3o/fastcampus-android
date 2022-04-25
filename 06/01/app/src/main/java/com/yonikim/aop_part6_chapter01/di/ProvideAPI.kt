@@ -3,8 +3,7 @@ package com.yonikim.aop_part6_chapter01.di
 import androidx.viewbinding.BuildConfig
 import com.yonikim.aop_part6_chapter01.data.network.FoodApiService
 import com.yonikim.aop_part6_chapter01.data.network.MapApiService
-import com.yonikim.aop_part6_chapter01.data.url.TmapUrl.FOOD_URL
-import com.yonikim.aop_part6_chapter01.data.url.TmapUrl.TMAP_URL
+import com.yonikim.aop_part6_chapter01.data.url.TmapUrl
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -25,7 +24,7 @@ fun provideMapRetrofit(
     gsonConverterFactory: GsonConverterFactory,
 ): Retrofit {
     return Retrofit.Builder()
-        .baseUrl(Url.TMAP_URL)
+        .baseUrl(TmapUrl.TMAP_URL)
         .addConverterFactory(gsonConverterFactory)
         .client(okHttpClient)
         .build()
@@ -36,7 +35,7 @@ fun provideFoodRetrofit(
     gsonConverterFactory: GsonConverterFactory,
 ): Retrofit {
     return Retrofit.Builder()
-        .baseUrl(Url.FOOD_URL)
+        .baseUrl(TmapUrl.FOOD_URL)
         .addConverterFactory(gsonConverterFactory)
         .client(okHttpClient)
         .build()
