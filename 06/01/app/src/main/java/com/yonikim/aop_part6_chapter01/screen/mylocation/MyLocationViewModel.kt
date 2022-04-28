@@ -1,5 +1,15 @@
 package com.yonikim.aop_part6_chapter01.screen.mylocation
 
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.viewModelScope
+import com.yonikim.aop_part6_chapter01.data.entity.location.LocationLatLngEntity
+import com.yonikim.aop_part6_chapter01.data.entity.location.MapSearchInfoEntity
+import com.yonikim.aop_part6_chapter01.data.repository.map.MapRepository
+import com.yonikim.aop_part6_chapter01.data.repository.user.UserRepository
+import com.yonikim.aop_part6_chapter01.screen.base.BaseViewModel
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.launch
+
 class MyLocationViewModel(
     private val mapSearchInfoEntity: MapSearchInfoEntity,
     private val mapRepository: MapRepository,
