@@ -1,6 +1,16 @@
 package com.yonikim.aop_part6_chapter01.screen.mylocation
 
-class MyLocationActivity : BaseActivity<MyLocationViewModel, ActivityMyLocationBinding>(), OnMapReadyCallback {
+import android.content.Context
+import com.google.android.gms.maps.OnMapReadyCallback
+import com.yonikim.aop_part6_chapter01.data.entity.location.MapSearchInfoEntity
+import com.yonikim.aop_part6_chapter01.databinding.ActivityMyLocationBinding
+import com.yonikim.aop_part6_chapter01.screen.base.BaseActivity
+import com.yonikim.aop_part6_chapter01.screen.home.HomeViewModel
+import org.koin.android.viewmodel.compat.ScopeCompat.viewModel
+import org.koin.core.parameter.parametersOf
+
+class MyLocationActivity : BaseActivity<MyLocationViewModel, ActivityMyLocationBinding>(),
+    OnMapReadyCallback {
 
     override val viewModel by viewModel<MyLocationViewModel> {
         parametersOf(
