@@ -1,5 +1,13 @@
 package com.yonikim.aop_part6_chapter01.screen.my
 
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.viewModelScope
+import com.yonikim.aop_part6_chapter01.data.preference.AppPreferenceManager
+import com.yonikim.aop_part6_chapter01.data.repository.order.OrderRepository
+import com.yonikim.aop_part6_chapter01.data.repository.user.UserRepository
+import com.yonikim.aop_part6_chapter01.screen.base.BaseViewModel
+import kotlinx.coroutines.Job
+
 class MyViewModel(
     private val appPreferenceManager: AppPreferenceManager,
     private val userRepository: UserRepository,
