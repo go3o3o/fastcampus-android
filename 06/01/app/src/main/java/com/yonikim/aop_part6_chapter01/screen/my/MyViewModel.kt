@@ -1,12 +1,21 @@
 package com.yonikim.aop_part6_chapter01.screen.my
 
+import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
+import com.google.firebase.auth.FirebaseUser
+import com.yonikim.aop_part6_chapter01.R
+import com.yonikim.aop_part6_chapter01.data.entity.order.OrderEntity
 import com.yonikim.aop_part6_chapter01.data.preference.AppPreferenceManager
+import com.yonikim.aop_part6_chapter01.data.repository.order.DefaultOrderRepository
 import com.yonikim.aop_part6_chapter01.data.repository.order.OrderRepository
 import com.yonikim.aop_part6_chapter01.data.repository.user.UserRepository
+import com.yonikim.aop_part6_chapter01.model.order.OrderModel
 import com.yonikim.aop_part6_chapter01.screen.base.BaseViewModel
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 
 class MyViewModel(
     private val appPreferenceManager: AppPreferenceManager,
