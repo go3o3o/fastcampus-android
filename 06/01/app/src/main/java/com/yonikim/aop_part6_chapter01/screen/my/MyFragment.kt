@@ -1,5 +1,8 @@
 package com.yonikim.aop_part6_chapter01.screen.my
 
+import com.yonikim.aop_part6_chapter01.databinding.FragmentMyBinding
+import com.yonikim.aop_part6_chapter01.screen.base.BaseFragment
+
 class MyFragment: BaseFragment<MyViewModel, FragmentMyBinding>() {
 
     override val viewModel by viewModel<MyViewModel>()
