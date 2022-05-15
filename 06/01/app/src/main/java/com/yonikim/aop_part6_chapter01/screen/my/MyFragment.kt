@@ -1,7 +1,11 @@
 package com.yonikim.aop_part6_chapter01.screen.my
 
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions
+import com.google.firebase.auth.FirebaseAuth
+import com.yonikim.aop_part6_chapter01.R
 import com.yonikim.aop_part6_chapter01.databinding.FragmentMyBinding
 import com.yonikim.aop_part6_chapter01.screen.base.BaseFragment
+import org.koin.android.viewmodel.ext.android.viewModel
 
 class MyFragment: BaseFragment<MyViewModel, FragmentMyBinding>() {
 
