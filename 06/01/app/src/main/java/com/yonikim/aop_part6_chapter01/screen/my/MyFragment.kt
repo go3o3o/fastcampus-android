@@ -3,12 +3,19 @@ package com.yonikim.aop_part6_chapter01.screen.my
 import android.app.Activity
 import android.util.Log
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.core.view.isGone
+import androidx.core.view.isVisible
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.common.api.ApiException
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.GoogleAuthProvider
 import com.yonikim.aop_part6_chapter01.R
 import com.yonikim.aop_part6_chapter01.databinding.FragmentMyBinding
+import com.yonikim.aop_part6_chapter01.extensions.load
+import com.yonikim.aop_part6_chapter01.model.order.OrderModel
 import com.yonikim.aop_part6_chapter01.screen.base.BaseFragment
+import com.yonikim.aop_part6_chapter01.screen.review.AddRestaurantReviewActivity
+import com.yonikim.aop_part6_chapter01.widget.adapter.listener.order.OrderListListener
 import org.koin.android.viewmodel.ext.android.viewModel
 
 class MyFragment: BaseFragment<MyViewModel, FragmentMyBinding>() {
@@ -44,7 +51,8 @@ class MyFragment: BaseFragment<MyViewModel, FragmentMyBinding>() {
     }
 
     private val adapter by lazy {
-        ModelRecyclerAdapter<OrderModel, MyViewModel>(listOf(), viewModel, adapterListener = object : OrderListListener {
+        ModelRecyclerAdapter<OrderModel, MyViewModel>(listOf(), viewModel, adapterListener = object :
+            OrderListListener {
 
             override fun writeRestaurantReview(orderId: String, restaurantTitle: String) {
                 startActivity(
