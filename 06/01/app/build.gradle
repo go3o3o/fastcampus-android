@@ -54,8 +54,9 @@ dependencies {
     implementation 'jp.wasabeef:glide-transformations:4.0.0'
 
     // Google Map
-    implementation 'com.google.android.gms:play-services-maps:17.0.1'
-    implementation 'com.google.android.gms:play-services-location:18.0.0'
+    implementation 'com.google.android.gms:play-services-auth:20.2.0'
+    implementation 'com.google.android.gms:play-services-maps:18.0.2'
+    implementation 'com.google.android.gms:play-services-location:19.0.1'
 
     // OkHttp3
     implementation "com.squareup.okhttp3:okhttp:4.6.0"
