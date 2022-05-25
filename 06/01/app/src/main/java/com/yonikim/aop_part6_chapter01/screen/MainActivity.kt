@@ -1,7 +1,5 @@
 package com.yonikim.aop_part6_chapter01.screen
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
 import android.view.MenuItem
 import androidx.annotation.IdRes
 import androidx.fragment.app.Fragment
@@ -14,9 +12,10 @@ import com.yonikim.aop_part6_chapter01.screen.home.HomeFragment
 import com.yonikim.aop_part6_chapter01.screen.like.RestaurantLikeListFragment
 import com.yonikim.aop_part6_chapter01.screen.my.MyFragment
 import com.yonikim.aop_part6_chapter01.util.event.MenuChangeEventBus
+import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 import org.koin.android.viewmodel.ext.android.viewModel
-import org.koin.java.KoinJavaComponent.inject
+import org.koin.android.ext.android.inject
 
 class MainActivity : BaseActivity<MainViewModel, ActivityMainBinding>(), BottomNavigationView.OnNavigationItemSelectedListener {
 
