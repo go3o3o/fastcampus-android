@@ -1,14 +1,16 @@
 package com.yonikim.aop_part6_chapter01.data.network
 
+
+import com.yonikim.aop_part6_chapter01.data.url.Key
+import com.yonikim.aop_part6_chapter01.data.url.TmapUrl
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Header
 import retrofit2.http.Query
-import retrofit2.http.Url
 
 interface MapApiService {
 
-    @GET(Url.GET_TMAP_POIS)
+    @GET(TmapUrl.GET_TMAP_POIS)
     suspend fun getSearchLocation(
         @Header("appKey") appKey: String = Key.TMAP_API,
         @Query("version") version: Int = 1,
@@ -27,7 +29,7 @@ interface MapApiService {
         @Query("centerLat") centerLat: String? = null
     ): Response<SearchResponse>
 
-    @GET(Url.GET_TMAP_POIS_AROUND)
+    @GET(TmapUrl.GET_TMAP_POIS_AROUND)
     suspend fun getSearchLocationAround(
         @Header("appKey") appKey: String = Key.TMAP_API,
         @Query("version") version: Int = 1,
