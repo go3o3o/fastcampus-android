@@ -1,5 +1,8 @@
 package com.yonikim.aop_part6_chapter01.data.response.address
 
+import com.google.gson.annotations.Expose
+import com.google.gson.annotations.SerializedName
+
 data class AddressInfo(
     @SerializedName("fullAddress")
     @Expose
