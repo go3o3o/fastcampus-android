@@ -1,8 +1,10 @@
 package com.yonikim.aop_part6_chapter01.screen.home
 
 import android.Manifest
+import android.annotation.SuppressLint
 import android.app.Activity
 import android.app.AlertDialog
+import android.content.Context
 import android.location.Location
 import android.location.LocationListener
 import android.location.LocationManager
@@ -10,30 +12,32 @@ import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.view.isGone
 import androidx.core.view.isVisible
-import com.google.android.material.tabs.TabLayoutMediator
-import com.google.firebase.auth.FirebaseAuth
 import com.yonikim.aop_part6_chapter01.R
 import com.yonikim.aop_part6_chapter01.data.entity.location.LocationLatLngEntity
 import com.yonikim.aop_part6_chapter01.data.entity.location.MapSearchInfoEntity
 import com.yonikim.aop_part6_chapter01.databinding.FragmentHomeBinding
+import com.yonikim.aop_part6_chapter01.screen.MainActivity
+import com.yonikim.aop_part6_chapter01.screen.MainTabMenu
 import com.yonikim.aop_part6_chapter01.screen.base.BaseFragment
 import com.yonikim.aop_part6_chapter01.screen.home.HomeViewModel.Companion.MY_LOCATION_KEY
 import com.yonikim.aop_part6_chapter01.screen.home.restaurant.RestaurantCategory
-import com.yonikim.aop_part6_chapter01.screen.home.restaurant.RestaurantFilterOrder
 import com.yonikim.aop_part6_chapter01.screen.home.restaurant.RestaurantListFragment
-import org.koin.android.viewmodel.compat.ScopeCompat.viewModel
+import com.yonikim.aop_part6_chapter01.screen.home.restaurant.RestaurantFilterOrder
+import com.yonikim.aop_part6_chapter01.screen.mylocation.MyLocationActivity
+import com.yonikim.aop_part6_chapter01.screen.order.OrderMenuListActivity
+import com.yonikim.aop_part6_chapter01.widget.adapter.RestaurantListFragmentPagerAdapter
+import com.google.android.material.tabs.TabLayoutMediator
+import com.google.firebase.auth.FirebaseAuth
+import org.koin.android.viewmodel.ext.android.viewModel
 
 class HomeFragment : BaseFragment<HomeViewModel, FragmentHomeBinding>() {
 
     companion object {
-
         val locationPermissions = arrayOf(
             Manifest.permission.ACCESS_FINE_LOCATION,
             Manifest.permission.ACCESS_COARSE_LOCATION
         )
-
         const val TAG = "MainFragment"
-
         fun newInstance() = HomeFragment()
     }
 
