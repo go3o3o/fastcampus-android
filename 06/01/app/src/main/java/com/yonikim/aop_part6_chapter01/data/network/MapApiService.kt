@@ -1,6 +1,8 @@
 package com.yonikim.aop_part6_chapter01.data.network
 
 
+import com.yonikim.aop_part6_chapter01.data.response.address.AddressInfoResponse
+import com.yonikim.aop_part6_chapter01.data.response.search.SearchResponse
 import com.yonikim.aop_part6_chapter01.data.url.Key
 import com.yonikim.aop_part6_chapter01.data.url.TmapUrl
 import retrofit2.Response
@@ -49,7 +51,7 @@ interface MapApiService {
         @Query("centerLat") centerLat: String? = null
     ): Response<SearchResponse>
 
-    @GET(Url.GET_TMAP_REVERSE_GEO_CODE)
+    @GET(TmapUrl.GET_TMAP_REVERSE_GEO_CODE)
     suspend fun getReverseGeoCode(
         @Header("appKey") appKey: String = Key.TMAP_API,
         @Query("version") version: Int = 1,
