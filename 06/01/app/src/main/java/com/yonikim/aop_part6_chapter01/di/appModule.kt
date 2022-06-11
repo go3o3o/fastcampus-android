@@ -29,7 +29,11 @@ import com.yonikim.aop_part6_chapter01.screen.home.restaurant.detail.RestaurantD
 import com.yonikim.aop_part6_chapter01.screen.home.restaurant.detail.menu.RestaurantMenuListViewModel
 import com.yonikim.aop_part6_chapter01.screen.home.restaurant.detail.review.RestaurantReviewListViewModel
 import com.yonikim.aop_part6_chapter01.screen.like.RestaurantLikeListViewModel
+import com.yonikim.aop_part6_chapter01.screen.my.MyViewModel
+import com.yonikim.aop_part6_chapter01.screen.mylocation.MyLocationViewModel
 import com.yonikim.aop_part6_chapter01.screen.order.OrderMenuListViewModel
+import com.yonikim.aop_part6_chapter01.screen.review.gallery.GalleryPhotoRepository
+import com.yonikim.aop_part6_chapter01.screen.review.gallery.GalleryViewModel
 import com.yonikim.aop_part6_chapter01.util.event.MenuChangeEventBus
 import com.yonikim.aop_part6_chapter01.util.provider.DefaultResourcesProvider
 import com.yonikim.aop_part6_chapter01.util.provider.ResourcesProvider

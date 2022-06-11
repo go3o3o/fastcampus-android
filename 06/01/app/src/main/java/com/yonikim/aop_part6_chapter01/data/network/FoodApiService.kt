@@ -1,5 +1,6 @@
 package com.yonikim.aop_part6_chapter01.data.network
 
+import com.yonikim.aop_part6_chapter01.data.response.restaurant.RestaurantFoodResponse
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Path

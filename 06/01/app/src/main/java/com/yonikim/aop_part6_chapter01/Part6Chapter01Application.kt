@@ -2,6 +2,7 @@ package com.yonikim.aop_part6_chapter01
 
 import android.app.Application
 import android.content.Context
+import com.yonikim.aop_part6_chapter01.di.appModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin

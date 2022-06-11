@@ -3,6 +3,7 @@ package com.yonikim.aop_part6_chapter01.model.restaurant
 import com.yonikim.aop_part6_chapter01.data.entity.restaurant.RestaurantEntity
 import com.yonikim.aop_part6_chapter01.model.CellType
 import com.yonikim.aop_part6_chapter01.model.Model
+import com.yonikim.aop_part6_chapter01.screen.home.restaurant.RestaurantCategory
 
 data class RestaurantModel(
     override val id: Long,

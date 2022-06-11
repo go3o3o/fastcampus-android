@@ -5,6 +5,7 @@ import android.content.res.loader.ResourcesProvider
 import com.yonikim.aop_part6_chapter01.data.entity.location.LocationLatLngEntity
 import com.yonikim.aop_part6_chapter01.data.entity.restaurant.RestaurantEntity
 import com.yonikim.aop_part6_chapter01.data.network.MapApiService
+import com.yonikim.aop_part6_chapter01.screen.home.restaurant.RestaurantCategory
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.withContext
 
