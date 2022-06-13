@@ -1,9 +1,13 @@
 package com.yonikim.aop_part6_chapter01.screen.home.restaurant
 
+import android.os.Bundle
 import com.yonikim.aop_part6_chapter01.data.entity.location.LocationLatLngEntity
 import com.yonikim.aop_part6_chapter01.databinding.FragmentListBinding
 import com.yonikim.aop_part6_chapter01.model.restaurant.RestaurantModel
 import com.yonikim.aop_part6_chapter01.screen.base.BaseFragment
+import com.yonikim.aop_part6_chapter01.screen.home.restaurant.detail.RestaurantDetailActivity
+import com.yonikim.aop_part6_chapter01.widget.adapter.ModelRecyclerAdapter
+import com.yonikim.aop_part6_chapter01.widget.adapter.listener.restaurant.RestaurantListListener
 import org.koin.android.viewmodel.ext.android.viewModel
 import org.koin.core.parameter.parametersOf
 
@@ -17,7 +21,8 @@ class RestaurantListFragment : BaseFragment<RestaurantListViewModel, FragmentLis
     override val viewModel by viewModel<RestaurantListViewModel> { parametersOf(restaurantCategory, locationLatLngEntity) }
 
     private val adapter by lazy {
-        ModelRecyclerAdapter<RestaurantModel, RestaurantListViewModel>(listOf(), viewModel, adapterListener = object : RestaurantListListener {
+        ModelRecyclerAdapter<RestaurantModel, RestaurantListViewModel>(listOf(), viewModel, adapterListener = object :
+            RestaurantListListener {
             override fun onClickItem(model: RestaurantModel) {
                 startActivity(
                     RestaurantDetailActivity.newIntent(requireContext(), model.toEntity())
