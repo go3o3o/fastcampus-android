@@ -27,7 +27,11 @@ import com.yonikim.aop_part6_chapter01.R
 import com.yonikim.aop_part6_chapter01.data.entity.restaurant.RestaurantFoodEntity
 import com.yonikim.aop_part6_chapter01.extensions.fromDpToPx
 import com.yonikim.aop_part6_chapter01.extensions.load
+import com.yonikim.aop_part6_chapter01.screen.MainTabMenu
+import com.yonikim.aop_part6_chapter01.screen.home.restaurant.detail.menu.RestaurantMenuListFragment
+import com.yonikim.aop_part6_chapter01.screen.home.restaurant.detail.review.RestaurantReviewListFragment
 import com.yonikim.aop_part6_chapter01.screen.order.OrderMenuListActivity
+import com.yonikim.aop_part6_chapter01.widget.adapter.RestaurantDetailListFragmentPagerAdapter
 
 class RestaurantDetailActivity : BaseActivity<RestaurantDetailViewModel, ActivityRestaurantDetailBinding>() {
 
