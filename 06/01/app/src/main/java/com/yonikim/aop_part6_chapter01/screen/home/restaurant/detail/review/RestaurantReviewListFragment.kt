@@ -1,8 +1,11 @@
 package com.yonikim.aop_part6_chapter01.screen.home.restaurant.detail.review
 
+import androidx.core.os.bundleOf
 import com.yonikim.aop_part6_chapter01.databinding.FragmentListBinding
 import com.yonikim.aop_part6_chapter01.model.restaurant.RestaurantReviewModel
 import com.yonikim.aop_part6_chapter01.screen.base.BaseFragment
+import com.yonikim.aop_part6_chapter01.widget.adapter.ModelRecyclerAdapter
+import com.yonikim.aop_part6_chapter01.widget.adapter.listener.AdapterListener
 import org.koin.android.viewmodel.ext.android.viewModel
 import org.koin.core.parameter.parametersOf
 

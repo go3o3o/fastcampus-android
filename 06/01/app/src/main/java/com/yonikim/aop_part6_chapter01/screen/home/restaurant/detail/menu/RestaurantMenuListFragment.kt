@@ -7,6 +7,8 @@ import com.yonikim.aop_part6_chapter01.databinding.FragmentListBinding
 import com.yonikim.aop_part6_chapter01.model.restaurant.FoodModel
 import com.yonikim.aop_part6_chapter01.screen.base.BaseFragment
 import com.yonikim.aop_part6_chapter01.screen.home.restaurant.detail.RestaurantDetailViewModel
+import com.yonikim.aop_part6_chapter01.widget.adapter.ModelRecyclerAdapter
+import com.yonikim.aop_part6_chapter01.widget.adapter.listener.restaurant.FoodMenuListListener
 import org.koin.core.parameter.parametersOf
 import org.koin.android.viewmodel.ext.android.sharedViewModel
 import org.koin.android.viewmodel.ext.android.viewModel
@@ -24,7 +26,8 @@ class RestaurantMenuListFragment : BaseFragment<RestaurantMenuListViewModel, Fra
     private val restaurantDetailViewModel by sharedViewModel<RestaurantDetailViewModel>()
 
     private val adapter by lazy {
-        ModelRecyclerAdapter<FoodModel, RestaurantMenuListViewModel>(listOf(), viewModel, adapterListener = object : FoodMenuListListener {
+        ModelRecyclerAdapter<FoodModel, RestaurantMenuListViewModel>(listOf(), viewModel, adapterListener = object :
+            FoodMenuListListener {
             override fun onClickItem(model: FoodModel) {
                 viewModel.insertMenuInBasket(model)
             }
