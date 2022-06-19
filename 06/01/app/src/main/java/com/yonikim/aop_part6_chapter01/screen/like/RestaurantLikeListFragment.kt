@@ -5,6 +5,9 @@ import androidx.core.view.isVisible
 import com.yonikim.aop_part6_chapter01.databinding.FragmentRestaurantLikeListBinding
 import com.yonikim.aop_part6_chapter01.model.restaurant.RestaurantModel
 import com.yonikim.aop_part6_chapter01.screen.base.BaseFragment
+import com.yonikim.aop_part6_chapter01.screen.home.restaurant.detail.RestaurantDetailActivity
+import com.yonikim.aop_part6_chapter01.widget.adapter.ModelRecyclerAdapter
+import com.yonikim.aop_part6_chapter01.widget.adapter.listener.restaurant.RestaurantLikeListListener
 import org.koin.android.viewmodel.ext.android.viewModel
 
 
@@ -17,7 +20,8 @@ class RestaurantLikeListFragment: BaseFragment<RestaurantLikeListViewModel, Frag
     private var isFirstShown = false
 
     private val adapter by lazy {
-        ModelRecyclerAdapter<RestaurantModel, RestaurantLikeListViewModel>(listOf(), viewModel, adapterListener = object : RestaurantLikeListListener {
+        ModelRecyclerAdapter<RestaurantModel, RestaurantLikeListViewModel>(listOf(), viewModel, adapterListener = object :
+            RestaurantLikeListListener {
 
             override fun onDislikeItem(model: RestaurantModel) {
                 viewModel.dislikeRestaurant(model.toEntity())
