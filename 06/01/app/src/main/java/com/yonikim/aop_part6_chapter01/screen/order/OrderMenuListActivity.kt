@@ -8,7 +8,10 @@ import androidx.core.view.isVisible
 import com.yonikim.aop_part6_chapter01.databinding.ActivityOrderMenuListBinding
 import com.yonikim.aop_part6_chapter01.model.restaurant.FoodModel
 import com.yonikim.aop_part6_chapter01.screen.base.BaseActivity
-import org.koin.android.viewmodel.compat.ScopeCompat.viewModel
+import com.yonikim.aop_part6_chapter01.widget.adapter.ModelRecyclerAdapter
+import com.yonikim.aop_part6_chapter01.widget.adapter.listener.order.OrderMenuListListener
+import org.koin.android.viewmodel.ext.android.viewModel
+
 
 class OrderMenuListActivity : BaseActivity<OrderMenuListViewModel, ActivityOrderMenuListBinding>() {
 
@@ -21,7 +24,8 @@ class OrderMenuListActivity : BaseActivity<OrderMenuListViewModel, ActivityOrder
     }
 
     private val adapter by lazy {
-        ModelRecyclerAdapter<FoodModel, OrderMenuListViewModel>(listOf(), viewModel, adapterListener = object : OrderMenuListListener {
+        ModelRecyclerAdapter<FoodModel, OrderMenuListViewModel>(listOf(), viewModel, adapterListener = object :
+            OrderMenuListListener {
             override fun onRemoveItem(model: FoodModel) {
                 viewModel.removeOrderMenu(model)
             }
