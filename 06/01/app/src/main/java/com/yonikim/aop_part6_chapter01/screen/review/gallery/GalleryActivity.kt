@@ -6,10 +6,11 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isGone
 import androidx.core.view.isVisible
+import com.yonikim.aop_part6_chapter01.R
 import com.yonikim.aop_part6_chapter01.databinding.ActivityGalleryBinding
 import com.yonikim.aop_part6_chapter01.widget.GalleryPhotoListAdapter
 import com.yonikim.aop_part6_chapter01.widget.decoration.GridDividerDecoration
-import org.koin.android.viewmodel.compat.ScopeCompat.viewModel
+import org.koin.android.viewmodel.ext.android.viewModel
 
 class GalleryActivity : AppCompatActivity() {
 
