@@ -3,10 +3,13 @@ package com.yonikim.aop_part6_chapter01.widget.adapter.viewholder.order
 import com.bumptech.glide.load.resource.bitmap.CenterCrop
 import com.yonikim.aop_part6_chapter01.R
 import com.yonikim.aop_part6_chapter01.databinding.ViewholderOrderMenuBinding
+import com.yonikim.aop_part6_chapter01.extensions.clear
 import com.yonikim.aop_part6_chapter01.extensions.load
 import com.yonikim.aop_part6_chapter01.model.restaurant.FoodModel
 import com.yonikim.aop_part6_chapter01.screen.base.BaseViewModel
 import com.yonikim.aop_part6_chapter01.util.provider.ResourcesProvider
+import com.yonikim.aop_part6_chapter01.widget.adapter.listener.AdapterListener
+import com.yonikim.aop_part6_chapter01.widget.adapter.listener.order.OrderMenuListListener
 import com.yonikim.aop_part6_chapter01.widget.adapter.viewholder.ModelViewHolder
 
 class OrderMenuViewHolder(
