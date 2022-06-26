@@ -6,6 +6,8 @@ import com.yonikim.aop_part6_chapter01.databinding.ViewholderOrderBinding
 import com.yonikim.aop_part6_chapter01.model.order.OrderModel
 import com.yonikim.aop_part6_chapter01.screen.base.BaseViewModel
 import com.yonikim.aop_part6_chapter01.util.provider.ResourcesProvider
+import com.yonikim.aop_part6_chapter01.widget.adapter.listener.AdapterListener
+import com.yonikim.aop_part6_chapter01.widget.adapter.listener.order.OrderListListener
 import com.yonikim.aop_part6_chapter01.widget.adapter.viewholder.ModelViewHolder
 
 class OrderViewHolder(
