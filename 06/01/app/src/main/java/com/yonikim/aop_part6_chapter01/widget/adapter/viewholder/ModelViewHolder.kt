@@ -6,6 +6,7 @@ import androidx.viewbinding.ViewBinding
 import com.yonikim.aop_part6_chapter01.model.Model
 import com.yonikim.aop_part6_chapter01.screen.base.BaseViewModel
 import com.yonikim.aop_part6_chapter01.util.provider.ResourcesProvider
+import com.yonikim.aop_part6_chapter01.widget.adapter.listener.AdapterListener
 
 abstract class ModelViewHolder<M: Model>(
     binding: ViewBinding,
