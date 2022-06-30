@@ -7,6 +7,8 @@ import com.yonikim.aop_part6_chapter01.extensions.load
 import com.yonikim.aop_part6_chapter01.model.restaurant.RestaurantModel
 import com.yonikim.aop_part6_chapter01.screen.base.BaseViewModel
 import com.yonikim.aop_part6_chapter01.util.provider.ResourcesProvider
+import com.yonikim.aop_part6_chapter01.widget.adapter.listener.AdapterListener
+import com.yonikim.aop_part6_chapter01.widget.adapter.listener.restaurant.RestaurantLikeListListener
 import com.yonikim.aop_part6_chapter01.widget.adapter.viewholder.ModelViewHolder
 
 class LikeRestaurantViewHolder(
