@@ -2,8 +2,13 @@ package com.yonikim.aop_part6_chapter01.widget
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.load.resource.bitmap.CenterCrop
+import com.yonikim.aop_part6_chapter01.R
 import com.yonikim.aop_part6_chapter01.databinding.ViewholderGalleryPhotoItemBinding
+import com.yonikim.aop_part6_chapter01.extensions.load
+import com.yonikim.aop_part6_chapter01.screen.review.gallery.GalleryPhoto
 
 class GalleryPhotoListAdapter(
     private val checkPhotoListener: (GalleryPhoto) -> Unit
