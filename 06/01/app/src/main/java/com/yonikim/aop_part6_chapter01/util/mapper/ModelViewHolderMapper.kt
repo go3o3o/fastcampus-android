@@ -1,9 +1,20 @@
 package com.yonikim.aop_part6_chapter01.util.mapper
 
-import android.content.res.loader.ResourcesProvider
+
+import android.view.LayoutInflater
 import android.view.ViewGroup
+import com.yonikim.aop_part6_chapter01.databinding.*
 import com.yonikim.aop_part6_chapter01.model.CellType
 import com.yonikim.aop_part6_chapter01.model.Model
+import com.yonikim.aop_part6_chapter01.screen.base.BaseViewModel
+import com.yonikim.aop_part6_chapter01.util.provider.ResourcesProvider
+import com.yonikim.aop_part6_chapter01.widget.adapter.viewholder.ModelViewHolder
+import com.yonikim.aop_part6_chapter01.widget.adapter.viewholder.food.FoodMenuViewHolder
+import com.yonikim.aop_part6_chapter01.widget.adapter.viewholder.order.OrderMenuViewHolder
+import com.yonikim.aop_part6_chapter01.widget.adapter.viewholder.order.OrderViewHolder
+import com.yonikim.aop_part6_chapter01.widget.adapter.viewholder.restaurant.LikeRestaurantViewHolder
+import com.yonikim.aop_part6_chapter01.widget.adapter.viewholder.restaurant.RestaurantViewHolder
+import com.yonikim.aop_part6_chapter01.widget.adapter.viewholder.review.RestaurantReviewViewHolder
 
 object ModelViewHolderMapper {
 
