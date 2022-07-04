@@ -6,8 +6,10 @@ import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.net.Uri
+import android.os.Build
 import android.os.Bundle
 import android.widget.Toast
+import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.core.view.isVisible
@@ -15,7 +17,13 @@ import androidx.lifecycle.lifecycleScope
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.storage.FirebaseStorage
+import com.yonikim.aop_part6_chapter01.data.entity.review.ReviewEntity
 import com.yonikim.aop_part6_chapter01.databinding.ActivityAddRestaurantReviewBinding
+import com.yonikim.aop_part6_chapter01.screen.review.camera.CameraActivity
+import com.yonikim.aop_part6_chapter01.screen.review.gallery.GalleryActivity
+import com.yonikim.aop_part6_chapter01.widget.adapter.PhotoListAdapter
+import kotlinx.coroutines.*
+import kotlinx.coroutines.tasks.await
 import org.koin.android.ext.android.inject
 
 
@@ -51,6 +59,7 @@ class AddRestaurantReviewActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityAddRestaurantReviewBinding
 
+    @RequiresApi(Build.VERSION_CODES.M)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityAddRestaurantReviewBinding.inflate(layoutInflater)
@@ -59,6 +68,7 @@ class AddRestaurantReviewActivity : AppCompatActivity() {
         initViews()
     }
 
+    @RequiresApi(Build.VERSION_CODES.M)
     private fun initViews() = with(binding) {
         photoRecyclerView.adapter = photoListAdapter
 
@@ -209,6 +219,7 @@ class AddRestaurantReviewActivity : AppCompatActivity() {
         }
     }
 
+    @RequiresApi(Build.VERSION_CODES.M)
     private fun showPictureUploadDialog() {
         AlertDialog.Builder(this)
             .setTitle("사진첨부")
@@ -227,6 +238,7 @@ class AddRestaurantReviewActivity : AppCompatActivity() {
             .show()
     }
 
+    @RequiresApi(Build.VERSION_CODES.M)
     private fun checkExternalStoragePermission(uploadAction: () -> Unit) {
         when {
             ContextCompat.checkSelfPermission(
@@ -244,6 +256,7 @@ class AddRestaurantReviewActivity : AppCompatActivity() {
         }
     }
 
+    @RequiresApi(Build.VERSION_CODES.M)
     private fun showPermissionContextPopup() {
         AlertDialog.Builder(this)
             .setTitle("권한이 필요합니다.")
